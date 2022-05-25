@@ -5,11 +5,12 @@
   --beige: #EEEBDD;
 }
 
-body {
+body, html {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  background: var(--deepPurple);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -17,6 +18,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    background: var(--deepPurple);
+}
+
+.wrapper {
+  background: var(--deepPurple);
+  padding: 25px;
 }
 
 
+
+h3{
+  color: var(--beige)
+}
+p{
+  color: var(--beige)
+}
+
+.aboutMe{
+  padding: 10px;
+}

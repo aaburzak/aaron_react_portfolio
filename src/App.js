@@ -9,7 +9,7 @@ import About from './pages/About';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="wrapper">
         <Header />
         <div className="container">
             <Routes>

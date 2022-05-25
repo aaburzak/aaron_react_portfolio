@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "./Navigation";
 
-function Header (props) {
+function Header () {
     return(
         <h2>
             <Navigation/> 
