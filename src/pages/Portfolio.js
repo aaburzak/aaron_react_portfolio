@@ -1,22 +1,25 @@
 import React from "react";
-import { Card } from 'react-bootstrap';
+import Project from "../components/Project";
+import { Container, Row, Col} from 'react-bootstrap';
 
 function Portfolio(){
     return(
-        <Card style={{ width: '18rem' }}>
-    <Card.Body className="aboutCard">
-      <Card.Title>Card Title</Card.Title>
-      <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-      <Card.Text>
-        Some quick example text to build on the card title and make up the bulk of
-        the card's content.
-      </Card.Text>
-      <Card.Link href="#">Card Link</Card.Link>
-      <Card.Link href="#">Another Link</Card.Link>
-    </Card.Body>
-  </Card>
+      <Container >
+      <Row>
+        <Col className="portHead">
+          <h3>My Portfolio</h3>
+          <p>Please enjoy a sampling of my work</p>
+        </Col>
+      </Row>
+      <Project/>
+      </Container>
+
+
+
     );
 };
+
+
 
 
 export default Portfolio;

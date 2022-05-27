@@ -29,12 +29,32 @@ code {
 
 
 h3{
-  color: var(--beige)
+  color: var(--beige);
 }
 p{
-  color: var(--beige)
+  color: var(--beige);
 }
 
 .aboutMe{
   padding: 10px;
 }
+.profPic{
+  height: min-content;
+}
+
+.projectCard{
+  margin: 15px;
+}
+
+.portHead{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h4{
+  color: var(--darkRed);
+}
+
+
+
