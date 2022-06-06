@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aaburzak/aaron_react_portfolio/static/css/main.34b7bcb2.css",
-    "main.js": "/aaburzak/aaron_react_portfolio/static/js/main.55a7513d.js",
+    "main.js": "/aaburzak/aaron_react_portfolio/static/js/main.2d15c875.js",
     "static/js/787.aaa0b88d.chunk.js": "/aaburzak/aaron_react_portfolio/static/js/787.aaa0b88d.chunk.js",
     "static/media/movie.png": "/aaburzak/aaron_react_portfolio/static/media/movie.3ce22284058d98bd6e3f.png",
     "static/media/trivia.png": "/aaburzak/aaron_react_portfolio/static/media/trivia.b73dc8269d6340a945fe.png",
@@ -11,11 +11,11 @@
     "static/media/codingquiz.png": "/aaburzak/aaron_react_portfolio/static/media/codingquiz.4c82aee89c613ffd2ff4.png",
     "index.html": "/aaburzak/aaron_react_portfolio/index.html",
     "main.34b7bcb2.css.map": "/aaburzak/aaron_react_portfolio/static/css/main.34b7bcb2.css.map",
-    "main.55a7513d.js.map": "/aaburzak/aaron_react_portfolio/static/js/main.55a7513d.js.map",
+    "main.2d15c875.js.map": "/aaburzak/aaron_react_portfolio/static/js/main.2d15c875.js.map",
     "787.aaa0b88d.chunk.js.map": "/aaburzak/aaron_react_portfolio/static/js/787.aaa0b88d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34b7bcb2.css",
-    "static/js/main.55a7513d.js"
+    "static/js/main.2d15c875.js"
   ]
 }
