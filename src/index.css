@@ -33,12 +33,15 @@ code {
 h3{
   color: var(--beige);
 }
+h4{
+  color: var(--lightRed);
+}
 p{
   color: var(--beige);
 }
 
 .aboutMe{
-  padding: 10px;
+  padding: 1%;
 }
 .profPic{
   height: min-content;
@@ -49,14 +52,21 @@ p{
 }
 
 .portHead{
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-top: 2%;
+  margin-bottom: 2%;
   text-align: center;
 }
 
-h4{
-  color: var(--darkRed);
+.contactHead{
+  margin-top: 1%;
 }
 
+.contactForm{
+  color:var(--beige)
+}
+
+.nav-item{
+  color: var(--lightRed);
+}
 
 

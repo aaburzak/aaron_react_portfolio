@@ -8,7 +8,7 @@ function Resume(){
       <Row>
         <Col className="portHead">
           <h3>My Resume</h3>
-          <p>For those interested in my professional experience in and out of coding</p>
+          <p>For those interested in my professional experience in and out of web development</p>
         </Col>
       </Row>
       <div class="col projectCard">
