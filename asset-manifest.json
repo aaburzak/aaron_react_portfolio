@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aaron_react_portfolio/static/css/main.34b7bcb2.css",
-    "main.js": "/aaron_react_portfolio/static/js/main.32b9d895.js",
+    "main.js": "/aaron_react_portfolio/static/js/main.e5a1060f.js",
     "static/js/787.aaa0b88d.chunk.js": "/aaron_react_portfolio/static/js/787.aaa0b88d.chunk.js",
     "static/media/movie.png": "/aaron_react_portfolio/static/media/movie.3ce22284058d98bd6e3f.png",
     "static/media/trivia.png": "/aaron_react_portfolio/static/media/trivia.b73dc8269d6340a945fe.png",
@@ -11,11 +11,11 @@
     "static/media/codingquiz.png": "/aaron_react_portfolio/static/media/codingquiz.4c82aee89c613ffd2ff4.png",
     "index.html": "/aaron_react_portfolio/index.html",
     "main.34b7bcb2.css.map": "/aaron_react_portfolio/static/css/main.34b7bcb2.css.map",
-    "main.32b9d895.js.map": "/aaron_react_portfolio/static/js/main.32b9d895.js.map",
+    "main.e5a1060f.js.map": "/aaron_react_portfolio/static/js/main.e5a1060f.js.map",
     "787.aaa0b88d.chunk.js.map": "/aaron_react_portfolio/static/js/787.aaa0b88d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34b7bcb2.css",
-    "static/js/main.32b9d895.js"
+    "static/js/main.e5a1060f.js"
   ]
 }
