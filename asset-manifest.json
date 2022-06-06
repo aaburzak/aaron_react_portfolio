@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/aaburzak/aaron_react_portfolio/static/css/main.34b7bcb2.css",
+    "main.js": "/aaburzak/aaron_react_portfolio/static/js/main.55a7513d.js",
+    "static/js/787.aaa0b88d.chunk.js": "/aaburzak/aaron_react_portfolio/static/js/787.aaa0b88d.chunk.js",
+    "static/media/movie.png": "/aaburzak/aaron_react_portfolio/static/media/movie.3ce22284058d98bd6e3f.png",
+    "static/media/trivia.png": "/aaburzak/aaron_react_portfolio/static/media/trivia.b73dc8269d6340a945fe.png",
+    "static/media/techblog.png": "/aaburzak/aaron_react_portfolio/static/media/techblog.24581e98f2c79ff063c4.png",
+    "static/media/aaronResume.png": "/aaburzak/aaron_react_portfolio/static/media/aaronResume.f9ef9679e3aafc158345.png",
+    "static/media/aaronpic.jpg": "/aaburzak/aaron_react_portfolio/static/media/aaronpic.8a9f38bc6d62c340bea0.jpg",
+    "static/media/codingquiz.png": "/aaburzak/aaron_react_portfolio/static/media/codingquiz.4c82aee89c613ffd2ff4.png",
+    "index.html": "/aaburzak/aaron_react_portfolio/index.html",
+    "main.34b7bcb2.css.map": "/aaburzak/aaron_react_portfolio/static/css/main.34b7bcb2.css.map",
+    "main.55a7513d.js.map": "/aaburzak/aaron_react_portfolio/static/js/main.55a7513d.js.map",
+    "787.aaa0b88d.chunk.js.map": "/aaburzak/aaron_react_portfolio/static/js/787.aaa0b88d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34b7bcb2.css",
+    "static/js/main.55a7513d.js"
+  ]
+}
