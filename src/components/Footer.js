@@ -3,10 +3,10 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="w-100 mt-auto text-dark p-4">
-      <ul class="nav justify-content-center text-center">
-        <li class="nav-item">
+      <ul className="nav justify-content-center text-center">
+        <li className="nav-item">
           <a
-            class="nav-link"
+            className="nav-link"
             href="https://www.linkedin.com/in/aaron-burzak-53187654"
             target="_blank"
             rel="noreferrer"
@@ -14,9 +14,9 @@ const Footer = () => {
             LinkedIn
           </a>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
           <a
-            class="nav-link"
+            className="nav-link"
             href="https://github.com/aaburzak"
             target="_blank"
             rel="noreferrer"
