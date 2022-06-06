@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34b7bcb2.css",
+    "main.js": "/static/js/main.b1c90a1d.js",
+    "static/js/787.aaa0b88d.chunk.js": "/static/js/787.aaa0b88d.chunk.js",
+    "static/media/movie.png": "/static/media/movie.3ce22284058d98bd6e3f.png",
+    "static/media/trivia.png": "/static/media/trivia.b73dc8269d6340a945fe.png",
+    "static/media/techblog.png": "/static/media/techblog.24581e98f2c79ff063c4.png",
+    "static/media/aaronResume.png": "/static/media/aaronResume.f9ef9679e3aafc158345.png",
+    "static/media/aaronpic.jpg": "/static/media/aaronpic.8a9f38bc6d62c340bea0.jpg",
+    "static/media/codingquiz.png": "/static/media/codingquiz.4c82aee89c613ffd2ff4.png",
+    "index.html": "/index.html",
+    "main.34b7bcb2.css.map": "/static/css/main.34b7bcb2.css.map",
+    "main.b1c90a1d.js.map": "/static/js/main.b1c90a1d.js.map",
+    "787.aaa0b88d.chunk.js.map": "/static/js/787.aaa0b88d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34b7bcb2.css",
+    "static/js/main.b1c90a1d.js"
+  ]
+}
