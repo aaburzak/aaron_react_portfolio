@@ -1,10 +1,12 @@
 
 
 :root{
-  --deepPurple: #1B1717;
-  --darkRed: #630000;
-  --lightRed: #810000;
-  --beige: #EEEBDD;
+  --dark: #354259;
+  --sand: #CDC2AE;
+  --beige: #ECE5C7;
+  --lightGreen: #C2DED1;
+  /* --lightGray: #EEEEEE;
+  --offWhite: #F6F6F6; */
 }
 
 body, html {
@@ -12,7 +14,7 @@ body, html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  background: var(--deepPurple);
+  background: var(--dark);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -20,21 +22,21 @@ body, html {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-    background: var(--deepPurple);
+    background: var(--dark);
 }
 
 .wrapper {
-  background: var(--deepPurple);
+  background: var(--dark);
   padding: 25px;
 }
 
 
 
 h3{
-  color: var(--beige);
+  color: var(--lightGreen);
 }
 h4{
-  color: var(--lightRed);
+  color: var(--sand);
 }
 p{
   color: var(--beige);
@@ -42,9 +44,10 @@ p{
 
 .aboutMe{
   padding: 1%;
-}
-.profPic{
-  height: min-content;
+} 
+
+.picRow{
+padding-bottom: 2%;
 }
 
 .projectCard{
@@ -66,7 +69,7 @@ p{
 }
 
 .nav-item{
-  color: var(--lightRed);
+  color: var(--sand);
 }
 
 
