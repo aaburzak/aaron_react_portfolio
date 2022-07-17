@@ -4,16 +4,20 @@ import { Container, Row, Col} from 'react-bootstrap';
 
 function Portfolio(){
     return(
-      <Container >
+      <div>
+      <Container className="containerStyle" >
       <Row>
         <Col className="portHead">
-          <h3>My Portfolio</h3>
-          <p>Please enjoy a sampling of my work</p>
+          <h1>My Portfolio</h1>
         </Col>
       </Row>
-      <Project/>
+      <Row>
+        <Col>
+        <Project/>
+        </Col>
+      </Row>
       </Container>
-
+      </div>
 
 
     );

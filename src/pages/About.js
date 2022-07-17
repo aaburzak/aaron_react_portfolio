@@ -2,12 +2,13 @@ import React from "react";
 import ProfilePic from "../components/ProfilePic";
 // import { Card } from 'react-bootstrap';
 import { Container, Row, Col} from 'react-bootstrap';
+
 function About(){
 return(
   <div>
     
     
-  <Container className="aboutMe">
+  <Container className="containerStyle">
   <Row>
       <Col className="portHead">
         <h1>About Me</h1>
