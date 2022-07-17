@@ -6,6 +6,7 @@
   --greyBeige: #C8C6C6;
   --lightBeige: #F7F6F2;
   --navWhite: #F7FBFC;
+  --navBlack: #212529;
 }
 
 body, html {
@@ -35,6 +36,11 @@ code {
 
 h3{
   color: var(--darkBlue);
+  background-color: var(--lightBeige);
+  border: outset;
+  border-color: var(--lightBeige);
+  margin: 33%;
+  padding: 2%;
 }
 h4{
   color: var(--darkBlue);
@@ -48,11 +54,13 @@ p{
   margin: 4%;
   padding-top: 2%;
   background-color: var(--greyBeige);
-  border: outset;
-  border-color: var(--beige);
-  border-radius: 5%;
+  border-radius: 3%;
+  border: outset var(--beige);
 } 
 
+.aboutRow{
+  padding-top: 4%;
+}
 .aboutCol{
   border: inset;
   border-color: var(--lightBeige);
@@ -62,11 +70,14 @@ p{
 }
 
 .picRow{
+border-top: double var(--navBlack);
+border-bottom: double var(--navBlack);
+padding-top: 2%;
 padding-bottom: 2%;
 }
 .picBox{
-  border: outset;
-  border-color: var(--beige);
+  border: inset;
+  border-color: var(--lightBeige);
   background-color: var(--darkBlue);
   padding: 2%;
   margin:2%;
