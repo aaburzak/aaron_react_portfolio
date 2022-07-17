@@ -4,20 +4,22 @@ import ProfilePic from "../components/ProfilePic";
 import { Container, Row, Col} from 'react-bootstrap';
 function About(){
 return(
-  <div className="aboutMe">
-  <Container >
-    <Row>
+  <div>
+    
+    
+  <Container className="aboutMe">
+  <Row>
       <Col className="portHead">
-        <h3>About Me</h3>
+        <h3>Aaron</h3>
       </Col>
     </Row>
-    <Row className="picRow">
-    <Col className="text-center">
+  <Row className="picRow">
+    <Col className="text-center picCol">
         <ProfilePic/>
     </Col>
     </Row>
     <Row className="justify-content-md-center">
-      <Col className="md-auto">
+      <Col className="md-auto aboutCol">
       <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>

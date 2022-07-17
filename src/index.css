@@ -1,12 +1,11 @@
 
 
 :root{
-  --dark: #354259;
-  --sand: #CDC2AE;
-  --beige: #ECE5C7;
-  --lightGreen: #C2DED1;
-  /* --lightGray: #EEEEEE;
-  --offWhite: #F6F6F6; */
+  --darkBlue: #4B6587;
+  --beige: #F0E5CF;
+  --greyBeige: #C8C6C6;
+  --lightBeige: #F7F6F2;
+  --navWhite: #F7FBFC;
 }
 
 body, html {
@@ -14,7 +13,7 @@ body, html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  background: var(--dark);
+  background: var(--darkBlue);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -22,32 +21,53 @@ body, html {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-    background: var(--dark);
+    background: var(--darkBlue);
 }
 
 .wrapper {
-  background: var(--dark);
+  background: var(--darkBlue);
   padding: 25px;
 }
 
 
 
 h3{
-  color: var(--lightGreen);
+  color: var(--darkBlue);
 }
 h4{
-  color: var(--sand);
+  color: var(--darkBlue);
 }
 p{
-  color: var(--beige);
+  color: var(--navWhite);
 }
 
 .aboutMe{
-  padding: 1%;
+  margin: 4%;
+  padding-top: 2%;
+  background-color: var(--greyBeige);
+  border: outset;
+  border-color: var(--lightBeige);
+  border-radius: 5%;
 } 
+
+.aboutCol{
+  border: inset;
+  border-color: var(--beige);
+  background-color: var(--darkBlue);
+  padding: 2%;
+  margin:4%;
+}
 
 .picRow{
 padding-bottom: 2%;
+}
+.picBox{
+  border: inset;
+  border-color: var(--lightBeige);
+  background-color: var(--darkBlue);
+  padding: 2%;
+  margin:2%;
+  border-radius: 5%;
 }
 
 .projectCard{
@@ -69,7 +89,7 @@ padding-bottom: 2%;
 }
 
 .nav-item{
-  color: var(--sand);
+  color: var(--beige);
 }
 
 
