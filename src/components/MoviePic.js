@@ -2,7 +2,7 @@ import React from "react";
 import pic from "../images/movie.png";
 
 function MoviePic(){
-    return <img src={pic} />
+    return <img className="picTest"  src={pic} />
 }
 
 export default MoviePic

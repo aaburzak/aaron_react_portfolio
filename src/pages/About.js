@@ -5,7 +5,6 @@ import { Container, Row, Col} from 'react-bootstrap';
 
 function About(){
 return(
-  <div>
     
     
   <Container className="containerStyle">
@@ -30,7 +29,7 @@ return(
       </Col>
     </Row>
   </Container>
-  </div>
+  
 
 
   //   <Card style={{ width: '18rem' }}>

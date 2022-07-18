@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card, Button } from "react-bootstrap";
+import { Card, Button, Carousel  } from "react-bootstrap";
 
 import TriviaPic from "./TriviaPic";
 import MoviePic from "./MoviePic";
@@ -8,7 +8,34 @@ import TechPic from "./TechPic";
 import QuizPic from "./QuizPic";
 
 function Project(){
-    // return(
+    return(
+
+
+
+<Carousel fade className="picBox" >
+      <Carousel.Item className="d-block w-100">
+        <QuizPic/>
+      </Carousel.Item>
+      {/* <Carousel.Item>
+        <TriviaPic/>
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <MoviePic/>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item> */}
+    </Carousel>
+
+
+
     //     <div class="container">
     //         <div class="row">
     //             <div class="col projectCard">
@@ -97,7 +124,7 @@ function Project(){
 
     //         </div>
     //     </div>
-    // );
+    );
 };
 
 export default Project;

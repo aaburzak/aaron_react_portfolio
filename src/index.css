@@ -53,8 +53,8 @@ p{
 .containerStyle{
   margin: 4%;
   padding-top: 2%;
-  background-color: var(--greyBeige);
-
+  /* background-color: var(--greyBeige); */
+  background: radial-gradient( var(--greyBeige) 0%, var(--beige) 100%);
   border: outset var(--beige);
 } 
 
@@ -74,6 +74,7 @@ border-top: double var(--navBlack);
 border-bottom: double var(--navBlack);
 padding-top: 2%;
 padding-bottom: 2%;
+max-height: 1%;
 }
 .picBox{
   border: inset;
@@ -104,6 +105,10 @@ padding-bottom: 2%;
 
 .nav-item{
   color: var(--beige);
+}
+
+.picTest{
+  border-radius: 50%;
 }
 
 

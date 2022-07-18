@@ -2,7 +2,7 @@ import React from "react";
 import pic from "../images/trivia.png";
 
 function TriviaPic(){
-    return <img src={pic} />
+    return <img  className="picTest" src={pic} />
 }
 
 export default TriviaPic
