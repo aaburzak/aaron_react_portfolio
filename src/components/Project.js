@@ -23,23 +23,23 @@ function Project(){
             <>
               <style type="text/css">
                 {`
-                  .btn-post {
+                  .btn-port {
                   background-color: var(--darkBlue);
                   color: var(--beige);
                   cursor: pointer;
                   border: 2px solid var(--beige);
                   margin-right: 1%;
                   } 
-                  .btn-post:hover {
+                  .btn-port:hover {
                   box-shadow: inset 0px 0px var(--beige), 0 0 15px var(--beige);
                   color: var(--beige);
                   }
                 `}
               </style>
-                <Button variant="post" href=" https://immense-garden-06811.herokuapp.com/evaluate"  size="lg">
+                <Button variant="port" href=" https://immense-garden-06811.herokuapp.com/evaluate"  size="lg">
                   Test the App
                 </Button>{' '}
-                <Button variant="post" href="https://github.com/MaxFrank13/MtG-Trading-Block"   size="lg">
+                <Button variant="port" href="https://github.com/MaxFrank13/MtG-Trading-Block"   size="lg">
                   See The Code 
                 </Button>{' '}
             </>
@@ -56,23 +56,23 @@ function Project(){
             <>
               <style type="text/css">
                 {`
-                  .btn-post {
+                  .btn-port {
                   background-color: var(--darkBlue);
                   color: var(--beige);
                   cursor: pointer;
                   border: 2px solid var(--beige);
                   margin-right: 1%;
                   } 
-                  .btn-post:hover {
+                  .btn-port:hover {
                   box-shadow: inset 0px 0px var(--beige), 0 0 15px var(--beige);
                   color: var(--beige);
                   }
                 `}
               </style>
-                <Button variant="post" href="https://boiling-reaches-95982.herokuapp.com/profile"  size="lg">
+                <Button variant="port" href="https://boiling-reaches-95982.herokuapp.com/profile"  size="lg">
                   Test the App
                 </Button>{' '}
-                <Button variant="post" href="https://github.com/aaburzak/trivia-challenge"   size="lg">
+                <Button variant="port" href="https://github.com/aaburzak/trivia-challenge"   size="lg">
                   See The Code 
                 </Button>{' '}
             </>
@@ -90,23 +90,23 @@ function Project(){
             <>
               <style type="text/css">
                 {`
-                  .btn-post {
+                  .btn-port {
                   background-color: var(--darkBlue);
                   color: var(--beige);
                   cursor: pointer;
                   border: 2px solid var(--beige);
                   margin-right: 1%;
                   } 
-                  .btn-post:hover {
+                  .btn-port:hover {
                   box-shadow: inset 0px 0px var(--beige), 0 0 15px var(--beige);
                   color: var(--beige);
                   }
                 `}
               </style>
-                <Button variant="post" href="https://aguasvivasjc.github.io/Cinema-Buff/" size="lg">
+                <Button variant="port" href="https://aguasvivasjc.github.io/Cinema-Buff/" size="lg">
                   Test the App
                 </Button>{' '}
-                <Button variant="post" href="https://github.com/aguasvivasjc/Cinema-Buff"   size="lg">
+                <Button variant="port" href="https://github.com/aguasvivasjc/Cinema-Buff"   size="lg">
                   See The Code 
                 </Button>{' '}
             </>
