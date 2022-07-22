@@ -1,8 +1,8 @@
 import React from "react";
-import pic from "../images/mtg.png";
+import pic from "../images/mtg905.png";
 
 function QuizPic(){
-    return <img className="d-block w-100 picTest" src={pic} />
+    return <img className="picTest" src={pic} />
 }
 
 export default QuizPic

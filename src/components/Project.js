@@ -13,10 +13,10 @@ function Project(){
 
 
 <Carousel fade className="picBox" >
-      <Carousel.Item className="d-block w-100">
+      <Carousel.Item >
         <QuizPic/>
       </Carousel.Item>
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <TriviaPic/>
         <Carousel.Caption>
           <h3>Second slide label</h3>
@@ -31,7 +31,7 @@ function Project(){
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
         </Carousel.Caption>
-      </Carousel.Item> */}
+      </Carousel.Item>
     </Carousel>
 
 
