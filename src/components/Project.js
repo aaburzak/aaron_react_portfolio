@@ -15,21 +15,102 @@ function Project(){
 <Carousel fade className="picBox" >
       <Carousel.Item >
         <QuizPic/>
+        <Carousel.Caption>
+          <h4>MTG: Trading Block</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          
+          <div className="mb-2 buttonBar">
+            <>
+              <style type="text/css">
+                {`
+                  .btn-post {
+                  background-color: var(--darkBlue);
+                  color: var(--beige);
+                  cursor: pointer;
+                  border: 2px solid var(--beige);
+                  margin-right: 1%;
+                  } 
+                  .btn-post:hover {
+                  box-shadow: inset 0px 0px var(--beige), 0 0 15px var(--beige);
+                  color: var(--beige);
+                  }
+                `}
+              </style>
+                <Button variant="post" href=" https://immense-garden-06811.herokuapp.com/evaluate"  size="lg">
+                  Test the App
+                </Button>{' '}
+                <Button variant="post" href="https://github.com/MaxFrank13/MtG-Trading-Block"   size="lg">
+                  See The Code 
+                </Button>{' '}
+            </>
+          </div>
+
+        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <TriviaPic/>
         <Carousel.Caption>
-          <h3>Second slide label</h3>
+          <h4>Trivia Challenge</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div className="mb-2 buttonBar">
+            <>
+              <style type="text/css">
+                {`
+                  .btn-post {
+                  background-color: var(--darkBlue);
+                  color: var(--beige);
+                  cursor: pointer;
+                  border: 2px solid var(--beige);
+                  margin-right: 1%;
+                  } 
+                  .btn-post:hover {
+                  box-shadow: inset 0px 0px var(--beige), 0 0 15px var(--beige);
+                  color: var(--beige);
+                  }
+                `}
+              </style>
+                <Button variant="post" href="https://boiling-reaches-95982.herokuapp.com/profile"  size="lg">
+                  Test the App
+                </Button>{' '}
+                <Button variant="post" href="https://github.com/aaburzak/trivia-challenge"   size="lg">
+                  See The Code 
+                </Button>{' '}
+            </>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <MoviePic/>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h4>Movie Review</h4>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
+          <div className="mb-2 buttonBar">
+            <>
+              <style type="text/css">
+                {`
+                  .btn-post {
+                  background-color: var(--darkBlue);
+                  color: var(--beige);
+                  cursor: pointer;
+                  border: 2px solid var(--beige);
+                  margin-right: 1%;
+                  } 
+                  .btn-post:hover {
+                  box-shadow: inset 0px 0px var(--beige), 0 0 15px var(--beige);
+                  color: var(--beige);
+                  }
+                `}
+              </style>
+                <Button variant="post" href="https://aguasvivasjc.github.io/Cinema-Buff/" size="lg">
+                  Test the App
+                </Button>{' '}
+                <Button variant="post" href="https://github.com/aguasvivasjc/Cinema-Buff"   size="lg">
+                  See The Code 
+                </Button>{' '}
+            </>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
