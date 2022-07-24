@@ -99,16 +99,55 @@ max-height: 1%;
   margin-top: 1%;
 }
 
-.contactForm{
-  color:var(--beige)
-}
+
 
 .nav-item{
   color: var(--beige);
 }
 
-.picTest{
-  border-radius: 25%;
+.slidePic{
+  border-radius: 5%;
+  box-shadow: inset 0px 0px var(--lightBeige), 0 0 15px var(--lightBeige);
+  margin-top: 1%;
+  margin-bottom: 1%;
 } 
 
+.contactIcon{
+  border-radius: 25%;
+  max-width: 15%; 
+  max-height: 15%;
+}
 
+.contactIcon:hover{
+  box-shadow: inset 0px 0px var(--beige), 0 0 15px var(--beige)
+}
+
+.contactBox{
+  border: inset;
+  border-color: var(--lightBeige);
+  background-color: var(--darkBlue);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 5%;
+}
+
+.contactRow{
+  border-top: double var(--navBlack);
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+  }
+
+  .portBox{
+    border: inset;
+    border-color: var(--lightBeige);
+    background-color: var(--navBlack);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5%;
+  }

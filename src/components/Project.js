@@ -12,7 +12,7 @@ function Project(){
 
 
 
-<Carousel fade className="picBox" >
+<Carousel fade className="portBox" >
       <Carousel.Item >
         <QuizPic/>
         <Carousel.Caption>
@@ -36,10 +36,10 @@ function Project(){
                   }
                 `}
               </style>
-                <Button variant="port" href=" https://immense-garden-06811.herokuapp.com/evaluate"  size="lg">
+                <Button variant="port" href=" https://immense-garden-06811.herokuapp.com/evaluate"  size="md">
                   Test the App
                 </Button>{' '}
-                <Button variant="port" href="https://github.com/MaxFrank13/MtG-Trading-Block"   size="lg">
+                <Button variant="port" href="https://github.com/MaxFrank13/MtG-Trading-Block"   size="md">
                   See The Code 
                 </Button>{' '}
             </>
