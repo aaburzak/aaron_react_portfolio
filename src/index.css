@@ -133,11 +133,14 @@ max-height: 1%;
   padding-bottom: 5%;
   border-radius: 5%;
 }
+.contactText{
+  color: var(--lightBeige);
+}
 
 .contactRow{
   border-top: double var(--navBlack);
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 4%;
+  padding-bottom: 0%;
 
   }
 
