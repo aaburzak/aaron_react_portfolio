@@ -69,10 +69,10 @@ function Project(){
                   }
                 `}
               </style>
-                <Button variant="port" href="https://boiling-reaches-95982.herokuapp.com/profile"  size="lg">
+                <Button variant="port" href="https://boiling-reaches-95982.herokuapp.com/profile"  size="md">
                   Test the App
                 </Button>{' '}
-                <Button variant="port" href="https://github.com/aaburzak/trivia-challenge"   size="lg">
+                <Button variant="port" href="https://github.com/aaburzak/trivia-challenge"   size="md">
                   See The Code 
                 </Button>{' '}
             </>
@@ -103,10 +103,10 @@ function Project(){
                   }
                 `}
               </style>
-                <Button variant="port" href="https://aguasvivasjc.github.io/Cinema-Buff/" size="lg">
+                <Button variant="port" href="https://aguasvivasjc.github.io/Cinema-Buff/" size="md">
                   Test the App
                 </Button>{' '}
-                <Button variant="port" href="https://github.com/aguasvivasjc/Cinema-Buff"   size="lg">
+                <Button variant="port" href="https://github.com/aguasvivasjc/Cinema-Buff"   size="md">
                   See The Code 
                 </Button>{' '}
             </>
