@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Container, Row, Col } from 'react-bootstrap';
-import MyResume from "../components/MyResume";
+// import MyResume from "../components/MyResume";
+import ProfilePic from "../components/ProfilePic";
 
 function Resume(){
     return(
@@ -11,9 +12,13 @@ function Resume(){
           <p>For those interested in my professional experience in and out of web development</p>
         </Col>
       </Row>
-      <div class="col projectCard">
+      <div className="col projectCard">
         <Card>
-          <MyResume/>
+          {/* <MyResume/> */}
+          <a href="aaronResume.pdf" download>
+            <ProfilePic/>
+  {/* <img src="/images/myw3schoolsimage.jpg" alt="download"> */}
+</a>
         </Card>
       </div>
       </Container>

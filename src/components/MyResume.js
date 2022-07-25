@@ -1,9 +1,15 @@
 import React from "react";
-import pic from "../images/aaronResume.png";
-
+import { Document } from 'react-pdf';
 
 function MyResume(){
-    return <img src={pic} />
-}
+   
+    
+      return (
+        <div>
+          <Document file="../images/aaronResume.pdf">
+      </Document>
+        </div>
+      );
+    }
 
 export default MyResume
