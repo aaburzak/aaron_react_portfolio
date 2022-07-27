@@ -36,7 +36,7 @@ function Project(){
                   }
                 `}
               </style>
-                <Button variant="port" href=" https://immense-garden-06811.herokuapp.com/evaluate"  size="md">
+                <Button variant="port" href=" https://immense-garden-06811.herokuapp.com"  size="md">
                   Test the App
                 </Button>{' '}
                 <Button variant="port" href="https://github.com/MaxFrank13/MtG-Trading-Block"   size="md">

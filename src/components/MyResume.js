@@ -1,15 +1,12 @@
 import React from "react";
-import { Document } from 'react-pdf';
+import aaronResume from "../images/aaronResume.png";
 
 function MyResume(){
-   
-    
-      return (
-        <div>
-          <Document file="../images/aaronResume.pdf">
-      </Document>
-        </div>
-      );
-    }
+    return( 
+    <div>   
+    <img  src={aaronResume} />
+    </div> 
+    )
+}
 
 export default MyResume

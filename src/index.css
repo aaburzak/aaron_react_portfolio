@@ -34,14 +34,6 @@ code {
 
 
 
-h3{
-  color: var(--darkBlue);
-  background-color: var(--lightBeige);
-  border: outset;
-  border-color: var(--lightBeige);
-  margin: 33%;
-  padding: 2%;
-}
 h4{
   color: var(--lightBeige);
 }
