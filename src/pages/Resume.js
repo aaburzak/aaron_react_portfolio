@@ -28,16 +28,8 @@ function Resume(){
       <Row>
         <Col className="text-center portHead">
         <h1>Aaron Burzak</h1>
-        </Col>
-      </Row>
-      <Row>
-        <Col className="text-center">
-        <p>9 Carriage Lane</p>
-        <p>Salem, NH 03079</p>
-        </Col>
-        <Col className="text-center">
-        <p>T: 603.818.141.</p>
-        <p>E: aaron.j.burzak@gmail.com</p>
+        Salem, NH 03079
+        <p>aaron.j.burzak@gmail.com</p>
         </Col>
       </Row>
       <Row>
@@ -133,24 +125,33 @@ applicants.</li>
       <Row className="text-center">
       <h1>Education</h1>
         <Col>
-        <p>University of New Hampshire, Durham, NH
-          M.E.R.N. Full Stack Web Development
+          University of New Hampshire, Durham, NH
+          <p>M.E.R.N. Full Stack Web Development</p>
+        
+        Coding Dojo, Chicago, IL
+        <p>Python Web Development
         </p>
-        <p>Coding Dojo, Chicago, IL
-        Python Web Development
-        </p>
-        <p>Drexel University, Philadelphia, PA
-        Bachelor of Science: Music Industry
+        Drexel University, Philadelphia, PA
+        <p>Bachelor of Science: Music Industry
         </p>
         </Col>
     
         <Col>
         <p>December 2021 - June 2022</p>
+        <br></br>
         <p>October 2020 - January 2021</p>
+        <br></br>
         <p>September 2008 - June 2012</p>
         </Col>
       </Row>
 
+      <Row>
+        <Col className="text-center">
+        <a href="aaronResume.pdf" download>
+            <ProfilePic/>
+          </a>
+        </Col>
+      </Row>
 
 {/* 
       <Row>
