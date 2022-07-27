@@ -10,8 +10,8 @@ function Resume(){
 
 
     return(
-      <Container >
-      <Row>
+      <Container className="containerStyle">
+      {/* <Row>
         <Col className="portHead">
           <h1>Resume</h1>
           <p>For those interested in my professional experience in and out of web development</p>
@@ -23,10 +23,10 @@ function Resume(){
             <ProfilePic/>
           </a>
         </Col>
-      </Row>
+      </Row> */}
 
       <Row>
-        <Col className="text-center">
+        <Col className="text-center portHead">
         <h1>Aaron Burzak</h1>
         </Col>
       </Row>
@@ -97,14 +97,67 @@ function Resume(){
         <p>Tools/Languages: HTML, CSS, JavaScript, jQuery, Foundation, OMDbAPI, NYTimes API</p>
         </Col>
       </Row>
+      <Row>
+        <Col>
+        <h1 className="text-center">Professional Experience</h1>
+        <h4>SMS Assist - Chicago, IL</h4>
+        <p>Operations Specialist | February 2017 - June 2021</p>
+        <ul>
+          <li>Maintain a nationwide portfolio of single family homes to oversee, coordinate, and facilitate the resolution of time sensitive maintenance requests while
+communicating critical updates and realistic expectations to an array of unique clientele.</li>
+          <li>Build rapport and relationships with partnered affiliates and provide instructional documentation for teammates on SMS portal to improve communications based on
+affiliate preferences.</li>
+          <li>Develop and present cultural initiatives to Senior Leadership and C-Suite executives acting as a representative of my peers within the SMS Council.</li>
+          <li>Produce and implement instructional coaching sessions on standard operations with a focus on the education and empowerment of newly hired employees</li>
+        </ul>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+        <h4>Avant - Chicago, IL</h4>
+        <p>Team Lead | January 2015 - August 2016</p>
+        <ul>
+          <li>Lead a team of five to six employees, effectively communicate and train company policy, and delegate responsibilities pending company needs</li>
+          <li>Maintain client accounts through the resolution of escalated and time sensitive issues, and perform final review of financial documents to determine funding of loan
+applicants.</li>
+          <li>Conduct interviews and evaluate potential candidates for employment.</li>
+          <li>Audit employee performance and provide weekly feedback to identify areas of improvement and maximize efficiency</li>
+        </ul>
+        <p>Customer Specialist | August 2014 - January 2015</p>
+        <ul>
+          <li>Verify customer credentials and financial records to expedite and facilitate the application process</li>
+          <li>Receive and resolve a wide spectrum of customer inquiries, requests, and concerns with an empathetic and professional demeanor.</li>
+        </ul>
+        </Col>
+      </Row>
+      <Row className="text-center">
+      <h1>Education</h1>
+        <Col>
+        <p>University of New Hampshire, Durham, NH
+          M.E.R.N. Full Stack Web Development
+        </p>
+        <p>Coding Dojo, Chicago, IL
+        Python Web Development
+        </p>
+        <p>Drexel University, Philadelphia, PA
+        Bachelor of Science: Music Industry
+        </p>
+        </Col>
+    
+        <Col>
+        <p>December 2021 - June 2022</p>
+        <p>October 2020 - January 2021</p>
+        <p>September 2008 - June 2012</p>
+        </Col>
+      </Row>
 
 
-
+{/* 
       <Row>
         <Col className="text-center">
           <MyResume/>
         </Col>
-      </Row>
+      </Row> */}
       </Container>
     );
 };
