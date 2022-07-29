@@ -52,7 +52,8 @@ p{
   border: inset;
   border-color: var(--beige);
   background-color: var(--greyBeige);
-  padding: 3%;
+  padding-top: 3%;
+  padding-bottom: 2%;
   margin: 5%;
 }
 
@@ -185,4 +186,9 @@ max-height: 1%;
     box-shadow: inset 0px 0px var(--lightBeige), 0 0 15px var(--navWhite)
   }
 
- 
+ .footerRow{
+  justify-content: center;
+ }
+ .footerColOne{
+  justify-content: flex-end;
+ }

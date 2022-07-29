@@ -37,7 +37,7 @@ function Project(){
                 `}
               </style>
                 <Button variant="port" href=" https://immense-garden-06811.herokuapp.com"  size="md">
-                  Try the App
+                  Try The App
                 </Button>{' '}
                 <Button variant="port" href="https://github.com/MaxFrank13/MtG-Trading-Block"   size="md">
                   See The Code 
@@ -70,7 +70,7 @@ function Project(){
                 `}
               </style>
                 <Button variant="port" href="https://boiling-reaches-95982.herokuapp.com/profile"  size="md">
-                  Try the App
+                  Try The App
                 </Button>{' '}
                 <Button variant="port" href="https://github.com/aaburzak/trivia-challenge"   size="md">
                   See The Code 
@@ -104,7 +104,7 @@ function Project(){
                 `}
               </style>
                 <Button variant="port" href="https://aguasvivasjc.github.io/Cinema-Buff/" size="md">
-                  Try the App
+                  Try The App
                 </Button>{' '}
                 <Button variant="port" href="https://github.com/aguasvivasjc/Cinema-Buff"   size="md">
                   See The Code 

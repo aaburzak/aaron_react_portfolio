@@ -22,8 +22,8 @@ function Portfolio(){
           <p> All projects displayed are collaborative efforts in which I was fortunate enough to work alongside incredibly talented individuals.  I am quite proud of the work we accomplished together, and  I hope you enjoy taking these applications for a spin!
           </p>
           <p>
-          You can find more of my work, both collaborative and independent, by visiting my <a href="https://github.com/aaburzak">gitHub</a>.
-          </p>
+          You can find more of my developmental work, both collaborative and independent, by visiting my <a href="https://github.com/aaburzak">gitHub</a>, and more on my past professional experience by reviewing my <a href="https://www.linkedin.com/in/aaron-burzak-53187654/">Linkedin</a> or <a href="/resume">resume</a>.</p>
+            
           </Col>
         </Row>
       </Container>

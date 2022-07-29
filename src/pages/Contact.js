@@ -30,13 +30,13 @@ const Contact = () => {
     </Col>
     </Row>
     <Row className="justify-content-md-center botRow">
-      <Col className="md-auto botCol">
+      <Col className="md-auto botCol text-center">
       <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      If you like what you've seen so far, please don't hesitate to reach out through any of the above platforms.
       </p>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+      <p>While my passion is in front-end work, I am trained in full-stack development and  I would love to discuss any future projects or opportunities in which my skillset can have an impact.</p>
+      <p>I Look forward to hearing from you!</p>
+    
       </Col>
     </Row>
     </Container>
