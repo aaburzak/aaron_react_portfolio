@@ -37,6 +37,8 @@ p{
   margin: 3%;
 }
 
+
+
 .containerStyle{
   margin: 4%;
   padding-top: 2%;
@@ -186,9 +188,12 @@ max-height: 1%;
     box-shadow: inset 0px 0px var(--lightBeige), 0 0 15px var(--navWhite)
   }
 
- .footerRow{
-  justify-content: center;
- }
- .footerColOne{
-  justify-content: flex-end;
- }
+  .linkStyle{
+    color: var(--darkBlue);
+    text-decoration: none;
+  }
+
+  .linkStyle:hover{
+    color: var(--lightBeige);
+  }
+

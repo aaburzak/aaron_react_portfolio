@@ -20,7 +20,7 @@ const Contact = () => {
       <p className="text-center">I would love to connect</p> */}
     <Col className="contactBox text-center">
     
-                <a  href="mailto:aaron.j.burzak@gmail.com"><EmailPic/></a>{' '}
+                <a href="mailto:aaron.j.burzak@gmail.com"><EmailPic/></a>{' '}
                 <p className="contactText">E-mail</p>
                 <a href="https://github.com/aaburzak"><GitHubPic/></a>{' '}
                 <p className="contactText">GitHub</p>

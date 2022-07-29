@@ -33,7 +33,7 @@ function MyResume(){
         <h2 className="text-center resTitle">Projects</h2>
         <h3 className="resProjectStyle">Magic: Trading Block</h3>
         <p className="resStyle">Dedicated to the popular trading card game Magic: The Gathering. Where collectors can advertise, connect, and coordinate trades.</p>
-        <p className="resStyle">GitHub: <a href="https://github.com/MaxFrank13/MtG-Trading-Block">https://github.com/MaxFrank13/MtG-Trading-Block </a>| Project: <a href="https://immense-garden-06811.herokuapp.com">https://immense-garden-06811.herokuapp.com</a></p>
+        <p className="resStyle">GitHub: <a className="linkStyle" href="https://github.com/MaxFrank13/MtG-Trading-Block">https://github.com/MaxFrank13/MtG-Trading-Block </a>| Project: <a className="linkStyle" href="https://immense-garden-06811.herokuapp.com">https://immense-garden-06811.herokuapp.com</a></p>
         <p className="resStyle">Role: Managed client side development, architect of UI/UX experience
         </p>
         <p className="resStyle">Tools/Languages: HTML, CSS, JavaScript React, React-Bootstrap, MongoDB, Mongoose, Node.js, Socket.IO, Scryfall API</p>
@@ -44,7 +44,7 @@ function MyResume(){
         <Col>
         <h3 className="resProjectStyle">Trivia Challenge</h3>
         <p className="resStyle">A website where users can hone their knowledge with daily trivia challenges and earn top spot on the leaderboard.</p>
-        <p className="resStyle">GitHub: <a href="https://github.com/dpmurphy11/trivia-challenge">https://github.com/dpmurphy11/trivia-challenge </a>| Project: <a href="https://boiling-reaches-95982.herokuapp.com/">https://boiling-reaches-95982.herokuapp.com/</a></p>
+        <p className="resStyle">GitHub: <a className="linkStyle" href="https://github.com/dpmurphy11/trivia-challenge">https://github.com/dpmurphy11/trivia-challenge </a>| Project: <a className="linkStyle" href="https://boiling-reaches-95982.herokuapp.com/">https://boiling-reaches-95982.herokuapp.com/</a></p>
         <p className="resStyle">Role: Managed client side development, architect of UI/UX experience
         </p>
         <p className="resStyle">Tools/Languages: HTML, CSS, JavaScript, Bootstrap, Handlebars, Node.js, mySQL, Sequelize, Express, Axios, TriviaDB API</p>
@@ -54,7 +54,7 @@ function MyResume(){
         <Col>
         <h3 className="resProjectStyle">Cinema Buff</h3>
         <p className="resStyle">A simple client side only application that allows fans of cinema to look up movies and their corresponding reviews</p>
-        <p className="resStyle">GitHub: <a href="https://github.com/aguasvivasjc/Cinema-Buff">https://github.com/aguasvivasjc/Cinema-Buff </a>| Project: <a href="https://aguasvivasjc.github.io/Cinema-Buff/">https://aguasvivasjc.github.io/Cinema-Buff//</a></p>
+        <p className="resStyle">GitHub: <a className="linkStyle" href="https://github.com/aguasvivasjc/Cinema-Buff">https://github.com/aguasvivasjc/Cinema-Buff </a>| Project: <a className="linkStyle" href="https://aguasvivasjc.github.io/Cinema-Buff/">https://aguasvivasjc.github.io/Cinema-Buff//</a></p>
         <p className="resStyle">Role: Developed the code necessary to integrate and display API calls from the OMDbAPI
         </p>
         <p className="resStyle">Tools/Languages: HTML, CSS, JavaScript, jQuery, Foundation, OMDbAPI, NYTimes API</p>
