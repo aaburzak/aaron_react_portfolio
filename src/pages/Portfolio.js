@@ -7,7 +7,7 @@ function Portfolio(){
       <Container className="containerStyle">
       <Row>
           <Col className="portHead">
-            <h1>My Portfolio</h1>
+            <h1>Portfolio</h1>
           </Col>
         </Row>
       <Row className="picRow">

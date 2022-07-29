@@ -1,7 +1,6 @@
 import React from "react";
 import {Container, Row, Col } from 'react-bootstrap';
-import MyResume from "../components/MyResume";
-import ProfilePic from "../components/ProfilePic";
+import DownloadPic from "../components/DownloadPic";
 
 
 function Resume(){
@@ -11,21 +10,13 @@ function Resume(){
 
     return(
       <Container className="containerStyle ">
-      {/* <Row>
-        <Col className="portHead">
-          <h1>Resume</h1>
-          <p>For those interested in my professional experience in and out of web development</p>
-        </Col>
-      </Row>
       <Row>
-        <Col className="text-center">
-        <a href="aaronResume.pdf" download>
-            <ProfilePic/>
-          </a>
-        </Col>
-      </Row> */}
+      <Col className="portHead">
+        <h1>Resume</h1>
+      </Col>
+    </Row>
 
-      <Row>
+      <Row className="resStart">
         <Col className="text-center portHead">
         <h1>Aaron Burzak</h1>
         Salem, NH 03079
@@ -113,7 +104,7 @@ applicants.</li>
         </ul>
         </Col>
       </Row>
-      <Row className="text-center">
+      <Row className="text-center resEnd">
       <h1 className="resTitle">Education</h1>
         <Col>
           University of New Hampshire, Durham, NH
@@ -136,11 +127,12 @@ applicants.</li>
         </Col>
       </Row>
 
-      <Row>
+      <Row className="portHead">
         <Col className="text-center">
         <a href="aaronResume.pdf" download>
-            <ProfilePic/>
+            <DownloadPic/>
           </a>
+          <p>Download</p>
         </Col>
       </Row>
 
