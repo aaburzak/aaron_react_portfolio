@@ -18,13 +18,15 @@ return(
         <ProfilePic/>
     </Col>
     </Row>
-    <Row className="justify-content-md-center aboutRow">
-      <Col className="md-auto aboutCol">
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <Row className="justify-content-md-center botRow">
+      <Col className="md-auto botCol text-center">
+      
+      
+      <p>Hi, I'm Aaron a recent graduate of the University of New Hampshire's M.E.R.N. fullstack web development program. 
       </p>
+      <p>After spending the better part of the last decade in Chicago, pursuing the dreams of a younger man, I have relocated back to New England to spend time with family and shift my focus on new endeavors.  I have since discovered a passion for coding, specifically client side development and hope to create a career of contributing to innovative and intuitive user interfaces</p>
       <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Feel free to stay awhile, have a look around. 
       </p>
       </Col>
     </Row>

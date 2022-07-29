@@ -17,7 +17,7 @@ function Project(){
         <QuizPic/>
         <Carousel.Caption>
           <h4>MTG: Trading Block</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>A platform where collectors of the popular trading card game, Magic: The Gathering can advertise, connect, and coordinate trades.</p>
           
           <div className="mb-2 buttonBar">
             <>
@@ -37,7 +37,7 @@ function Project(){
                 `}
               </style>
                 <Button variant="port" href=" https://immense-garden-06811.herokuapp.com"  size="md">
-                  Test the App
+                  Try the App
                 </Button>{' '}
                 <Button variant="port" href="https://github.com/MaxFrank13/MtG-Trading-Block"   size="md">
                   See The Code 
@@ -51,7 +51,7 @@ function Project(){
         <TriviaPic/>
         <Carousel.Caption>
           <h4>Trivia Challenge</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>A website where users can hone their knowledge with daily trivia challenges and earn top spot on the leaderboard.</p>
           <div className="mb-2 buttonBar">
             <>
               <style type="text/css">
@@ -70,7 +70,7 @@ function Project(){
                 `}
               </style>
                 <Button variant="port" href="https://boiling-reaches-95982.herokuapp.com/profile"  size="md">
-                  Test the App
+                  Try the App
                 </Button>{' '}
                 <Button variant="port" href="https://github.com/aaburzak/trivia-challenge"   size="md">
                   See The Code 
@@ -84,7 +84,7 @@ function Project(){
         <Carousel.Caption>
           <h4>Movie Review</h4>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          A simple client side application that allows fans of cinema to look up movies and their corresponding reviews
           </p>
           <div className="mb-2 buttonBar">
             <>
@@ -104,7 +104,7 @@ function Project(){
                 `}
               </style>
                 <Button variant="port" href="https://aguasvivasjc.github.io/Cinema-Buff/" size="md">
-                  Test the App
+                  Try the App
                 </Button>{' '}
                 <Button variant="port" href="https://github.com/aguasvivasjc/Cinema-Buff"   size="md">
                   See The Code 

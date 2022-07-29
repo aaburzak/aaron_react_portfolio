@@ -35,7 +35,6 @@ code {
 
 p{
   margin: 3%;
-  /* color: var(--navWhite); */
 }
 
 .containerStyle{
@@ -46,13 +45,13 @@ p{
   border: outset var(--beige);
 } 
 
-.aboutRow{
+.botRow{
   padding-top: 4%;
 }
-.aboutCol{
+.botCol{
   border: inset;
-  border-color: var(--lightBeige);
-  /* background-color: var(--darkBlue); */
+  border-color: var(--beige);
+  background-color: var(--greyBeige);
   padding: 3%;
   margin: 5%;
 }
@@ -116,7 +115,7 @@ max-height: 1%;
   background-color: var(--darkBlue);
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
   padding-top: 5%;
   padding-bottom: 5%;
   border-radius: 5%;
@@ -128,7 +127,7 @@ max-height: 1%;
 .contactRow{
   border-top: double var(--navBlack);
   padding-top: 4%;
-  padding-bottom: 0%;
+  border-bottom: double var(--navBlack);
 
   }
 
@@ -186,4 +185,4 @@ max-height: 1%;
     box-shadow: inset 0px 0px var(--lightBeige), 0 0 15px var(--navWhite)
   }
 
-  
+ 
