@@ -42,8 +42,15 @@ p{
 .containerStyle{
   margin: 4%;
   padding-top: 2%;
-  /* background-color: var(--greyBeige); */
   background: radial-gradient( var(--greyBeige) 0%, var(--beige) 100%);
+  border: outset var(--beige);
+} 
+
+.resContainerStyle{
+  margin: 4%;
+  padding-top: 2%;
+  background-color: var(--beige);
+  /* background: radial-gradient( var(--greyBeige) 0%, var(--beige) 100%); */
   border: outset var(--beige);
 } 
 

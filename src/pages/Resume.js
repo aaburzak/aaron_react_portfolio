@@ -10,7 +10,7 @@ function Resume(){
 
 
     return(
-      <Container className="containerStyle ">
+      <Container className="resContainerStyle ">
       <Row>
       <Col className="portHead">
         <h1>Resume</h1>
