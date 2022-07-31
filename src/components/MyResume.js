@@ -93,6 +93,16 @@ applicants.</li>
         </ul>
         </Col>
       </Row>
+      <Row>
+        <Col>
+        <h4 className="resProjectStyle">KWC Marketing LLC - Salem, NH</h4>
+        <p className="resStyle">Marketing Associate | April 2013 - May 2014</p>
+        <ul className="resListStyle">
+          <li> Initiate contact and present offers to potential clientele</li>
+          <li>Coordinate appointments and travel for customers</li>
+        </ul>
+        </Col>
+      </Row>
       <Row className="text-center resEnd">
       <h1 className="resTitle">Education</h1>
         <Col>
