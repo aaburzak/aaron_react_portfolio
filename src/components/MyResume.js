@@ -15,10 +15,12 @@ function MyResume(){
       <Row>
         <Col className="text-center">
         <h2>Summary</h2>
-        <p className ="resStyle">Front-end web developer with a resolute understanding of the imperative need for an enjoyable and intuitive user experience. Forged in a history of entertainment and customer
-        service, and recently certified full stack development through the University of New Hampshire with freshly required skills in Javascript, CSS, React.js, and responsive web design.
-        Known for critical thinking, communication, and penchant for design, my goal is to improve myself with each project as I strive to create innovative and captivating user interfaces.
-        I am passionate and excited to leverage my skills as part of a team of quality oriented collaborators who share in these ambitions.</p>
+        <p className ="resStyle">Front-end web developer committed to creating enjoyable and intuitive user experiences. Accomplished in
+communication and entertainment and recently certified in full stack development through the University of New
+Hampshire acquiring skills in Javascript, CSS, React.js, and responsive web design. Known for critical
+thinking, and penchant for design, my goal is to improve myself with each project. Passionate and excited to
+leverage my skills as part of a team of quality oriented collaborators who share in these ambitions.
+</p>
         </Col>
       </Row>
       <Row>
@@ -66,11 +68,12 @@ function MyResume(){
         <h4 className="resProjectStyle">SMS Assist - Chicago, IL</h4>
         <p className="resStyle">Operations Specialist | February 2017 - June 2021</p>
         <ul className="resListStyle">
-          <li>Maintain a nationwide portfolio of single family homes to oversee, coordinate, and facilitate the resolution of time sensitive maintenance requests while
-communicating critical updates and realistic expectations to an array of unique clientele.</li>
-          <li>Build rapport and relationships with partnered affiliates and provide instructional documentation for teammates on SMS portal to improve communications based on
-affiliate preferences.</li>
-          <li>Develop and present cultural initiatives to Senior Leadership and C-Suite executives acting as a representative of my peers within the SMS Council.</li>
+          <li>Oversee a nationwide portfolio of single family homes, coordinating efforts necessary to resolve time
+sensitive maintenance requests while communicating critical updates and expectations.
+</li>
+          <li>Build rapport and relationships with partnered affiliates and instruct them on process.</li>
+          <li>Develop cultural initiatives channeled through senior leadership and C-Suite while acting as a
+representative of my colleagues within the SMS Council.</li>
           <li>Produce and implement instructional coaching sessions on standard operations with a focus on the education and empowerment of newly hired employees</li>
         </ul>
         </Col>
