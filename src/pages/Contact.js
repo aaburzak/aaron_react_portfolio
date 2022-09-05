@@ -19,13 +19,12 @@ const Contact = () => {
       {/* <p className="text-center">Please reach out if you have interest in my work</p>
       <p className="text-center">I would love to connect</p> */}
     <Col className="contactBox text-center">
-    
-                <a href="mailto:aaron.j.burzak@gmail.com"><EmailPic/></a>{' '}
-                <p className="contactText">E-mail</p>
-                <a href="https://github.com/aaburzak"><GitHubPic/></a>{' '}
+    <a href="https://github.com/aaburzak"><GitHubPic/></a>{' '}
                 <p className="contactText">GitHub</p>
                 <a href="https://www.linkedin.com/in/aaron-burzak-53187654/"><LinkedinPic/></a>{' '}
                 <p className="contactText">LinkedIn</p>
+                <a href="mailto:aaron.j.burzak@gmail.com"><EmailPic/></a>{' '}
+                <p className="contactText">aaron.j.burzak@gmail.com</p>
   
     </Col>
     </Row>
