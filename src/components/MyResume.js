@@ -20,6 +20,11 @@ import GitPic from "../components/GitPic";
 import ApiPic from "../components/ApiPic";
 import JsonPic from "../components/JsonPic";
 import AjaxPic from "../components/AjaxPic";
+import PythonPic from "../components/PythonPic";
+import DjangoPic from "../components/DjangoPic";
+import OfficePic from "../components/OfficePic";
+import GsuitePic from "../components/GsuitePic";
+
 
 function MyResume(){
     return( 
@@ -45,10 +50,12 @@ leverage my skills as part of a team of quality oriented collaborators who share
       <Row>
         <Col className="text-center">
         <h2 className="resTitle">Skills</h2>
-        <p className="resStyle"><MySqlPic/> <MongoPic/> <MongoosePic/> <NodePic/> <ExpressPic/> <ReactPic/> <ReactBootstrapPic/> <BootstrapPic/> <HandlebarsPic/> <HtmlPic/> <CssPic/> <JsPic/> <JquereyPic/> <HerokuPic/> <GitPic/> <ApiPic/> <JsonPic/> <AjaxPic/> jQuery, Heroku, Git, APIs, JSON, Ajax, Python,
-        Django, Public Speaking, Communication, Project Management, Microsoft Office Suite, Google Documents</p>
+        <p>Public Speaking, Communications, Project Management</p>
+        <p className="resStyle"><MySqlPic/> <MongoPic/> <MongoosePic/> <NodePic/> <ExpressPic/> <ReactPic/> <ReactBootstrapPic/> <BootstrapPic/> <HandlebarsPic/> <HtmlPic/> <CssPic/> <JsPic/> <JquereyPic/> <HerokuPic/> <GitPic/> <ApiPic/> <JsonPic/> <AjaxPic/> <PythonPic/> <DjangoPic/> <OfficePic/> <GsuitePic/>
+        </p>
         </Col>
       </Row>
+      
       <Row>
         <Col>
         <h2 className="text-center resTitle">Projects</h2>
