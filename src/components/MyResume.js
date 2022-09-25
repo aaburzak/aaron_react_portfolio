@@ -2,6 +2,10 @@ import React from "react";
 
 import {Row, Col } from 'react-bootstrap';
 
+import MySqlPic from "../components/MySqlPic";
+import MongoPic from "../components/MongoPic";
+import MongoosePic from "../components/MongoosePic";
+
 function MyResume(){
     return( 
         <div>
@@ -26,7 +30,7 @@ leverage my skills as part of a team of quality oriented collaborators who share
       <Row>
         <Col className="text-center">
         <h2 className="resTitle">Skills</h2>
-        <p className="resStyle">MySQL, MongoDB, Mongoose, Node.js, Express, React, React-Bootstrap, Bootstrap, Handlebars, HTML, CSS, JavaScript, jQuery, Bootstrap, Heroku, Git, APIs, JSON, Ajax, Python,
+        <p className="resStyle"><MySqlPic/> <MongoPic/> <MongoosePic/> Node.js, Express, React, React-Bootstrap, Bootstrap, Handlebars, HTML, CSS, JavaScript, jQuery, Bootstrap, Heroku, Git, APIs, JSON, Ajax, Python,
         Django, Public Speaking, Communication, Project Management, Microsoft Office Suite, Google Documents</p>
         </Col>
       </Row>
