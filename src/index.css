@@ -107,6 +107,8 @@ max-height: 1%;
   box-shadow: inset 0px 0px var(--lightBeige), 0 0 15px var(--lightBeige);
   margin-top: 1%;
   margin-bottom: 1%;
+  max-width: 75%;
+  max-height: 75%;
 } 
 
 .contactIcon{
