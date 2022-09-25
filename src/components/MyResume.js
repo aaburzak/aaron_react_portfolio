@@ -5,6 +5,11 @@ import {Row, Col } from 'react-bootstrap';
 import MySqlPic from "../components/MySqlPic";
 import MongoPic from "../components/MongoPic";
 import MongoosePic from "../components/MongoosePic";
+import NodePic from "../components/NodePic";
+import ExpressPic from "../components/ExpressPic";
+import ReactPic from "../components/ReactPic";
+import ReactBootstrapPic from "../components/ReactBootstrapPic";
+import BootstrapPic from "../components/BootstrapPic";
 
 function MyResume(){
     return( 
@@ -30,7 +35,7 @@ leverage my skills as part of a team of quality oriented collaborators who share
       <Row>
         <Col className="text-center">
         <h2 className="resTitle">Skills</h2>
-        <p className="resStyle"><MySqlPic/> <MongoPic/> <MongoosePic/> Node.js, Express, React, React-Bootstrap, Bootstrap, Handlebars, HTML, CSS, JavaScript, jQuery, Bootstrap, Heroku, Git, APIs, JSON, Ajax, Python,
+        <p className="resStyle"><MySqlPic/> <MongoPic/> <MongoosePic/> <NodePic/> <ExpressPic/> <ReactPic/> <ReactBootstrapPic/> <BootstrapPic/>, Handlebars, HTML, CSS, JavaScript, jQuery, Bootstrap, Heroku, Git, APIs, JSON, Ajax, Python,
         Django, Public Speaking, Communication, Project Management, Microsoft Office Suite, Google Documents</p>
         </Col>
       </Row>
