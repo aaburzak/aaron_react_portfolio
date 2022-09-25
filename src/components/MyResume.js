@@ -10,6 +10,11 @@ import ExpressPic from "../components/ExpressPic";
 import ReactPic from "../components/ReactPic";
 import ReactBootstrapPic from "../components/ReactBootstrapPic";
 import BootstrapPic from "../components/BootstrapPic";
+import HandlebarsPic from "../components/HandlebarsPic";
+import HtmlPic from "../components/HtmlPic";
+import CssPic from "../components/CssPic";
+import JsPic from "../components/JsPic";
+
 
 function MyResume(){
     return( 
@@ -35,7 +40,7 @@ leverage my skills as part of a team of quality oriented collaborators who share
       <Row>
         <Col className="text-center">
         <h2 className="resTitle">Skills</h2>
-        <p className="resStyle"><MySqlPic/> <MongoPic/> <MongoosePic/> <NodePic/> <ExpressPic/> <ReactPic/> <ReactBootstrapPic/> <BootstrapPic/>, Handlebars, HTML, CSS, JavaScript, jQuery, Bootstrap, Heroku, Git, APIs, JSON, Ajax, Python,
+        <p className="resStyle"><MySqlPic/> <MongoPic/> <MongoosePic/> <NodePic/> <ExpressPic/> <ReactPic/> <ReactBootstrapPic/> <BootstrapPic/> <HandlebarsPic/> <HtmlPic/> <CssPic/> <JsPic/> jQuery, Heroku, Git, APIs, JSON, Ajax, Python,
         Django, Public Speaking, Communication, Project Management, Microsoft Office Suite, Google Documents</p>
         </Col>
       </Row>
