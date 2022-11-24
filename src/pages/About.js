@@ -15,7 +15,7 @@ function About() {
         </Col>
         <Col>
           <h1>About Me</h1>
-          <hr className="mt-5"/>
+          <hr/>
           <p>
             Hi, I'm Aaron, a recent graduate of the University of New
             Hampshire's M.E.R.N. fullstack web development program.
@@ -34,7 +34,7 @@ function About() {
 
 
       <Row id = "portfolio" className="md-auto text-center mb-5 shadow">
-      <h1  className="bg-light p-5 m-0">Portfolio <hr className="mt-5"/></h1>
+      <h1  className="bg-light p-5 m-0">Portfolio <hr/></h1>
         <Col>
           <Project />
         </Col>
