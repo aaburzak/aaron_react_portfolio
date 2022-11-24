@@ -1,12 +1,8 @@
 import React from "react";
-import pic from "../images/linkedin.png";
+import pic from "../images/linkedin-black.png";
 
-function LinkedinPic(){
-    return( 
-    <div className="footerColOne">   
-    <img className="picBox contactIcon" src={pic} />
-    </div> 
-    )
+function LinkedinPic() {
+  return <img className="picBox contactIcon" src={pic} />;
 }
 
-export default LinkedinPic
+export default LinkedinPic;

@@ -1,12 +1,8 @@
 import React from "react";
 import Navigation from "./Navigation";
 
-function Header () {
-    return(
-        <h2>
-            <Navigation/> 
-        </h2>
-    )
+function Header() {
+  return <Navigation />;
 }
 
 export default Header;
