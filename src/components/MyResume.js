@@ -30,7 +30,7 @@ function MyResume() {
     <Container>
       <Row>
         <Col className="text-center mt-5">
-          <h1 id="resume">Resume</h1>
+          <h1>Resume</h1>
           <hr className="mt-5 mb-5" />
           <h2>Aaron Burzak</h2>
           Salem, NH 03079

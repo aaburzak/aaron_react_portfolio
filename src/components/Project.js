@@ -9,7 +9,7 @@ import QuizPic from "./QuizPic";
 
 function Project() {
   return (
-    <Carousel fade className="portBox">
+    <Carousel fade className="portBox ">
       <Carousel.Item>
         <QuizPic />
         <Carousel.Caption>

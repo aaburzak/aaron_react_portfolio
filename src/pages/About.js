@@ -3,6 +3,7 @@ import ProfilePic from "../components/ProfilePic";
 // import { Card } from 'react-bootstrap';
 import { Container, Row, Col } from "react-bootstrap";
 import MyResume from "../components/MyResume";
+import Project from "../components/Project";
 import DownloadPic from "../components/DownloadPic";
 
 function About() {
@@ -14,7 +15,7 @@ function About() {
         </Col>
         <Col>
           <h1>About Me</h1>
-          <hr />
+          <hr className="mt-5"/>
           <p>
             Hi, I'm Aaron, a recent graduate of the University of New
             Hampshire's M.E.R.N. fullstack web development program.
@@ -31,7 +32,15 @@ function About() {
         </Col>
       </Row>
 
-      <Row className="bg-light shadow shadow-lg mb-5">
+
+      <Row id = "portfolio" className="md-auto text-center mb-5 shadow">
+      <h1  className="bg-light p-5 m-0">Portfolio <hr className="mt-5"/></h1>
+        <Col>
+          <Project />
+        </Col>
+        </Row>
+
+      <Row id="resume" className="bg-light shadow shadow-lg mb-5">
         <MyResume />
         <Col>
           <hr />
