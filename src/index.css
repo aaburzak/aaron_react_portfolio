@@ -1,0 +1,257 @@
+
+
+:root{
+  --darkBlue: #4B6587;
+  --beige: #F0E5CF;
+  --greyBeige: #C8C6C6;
+  --lightBeige: #F7F6F2;
+  --navWhite: #F7FBFC;
+  --navBlack: #212529;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body, html {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+  /* background: var(--darkBlue); */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+html, body, #root, .wrapper {
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(180deg, #0b0f24, #4b6587);
+  background-attachment: fixed;
+  padding-top: 80px;
+  font-family: 'El Messiri', sans-serif;
+}
+
+.main-content
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    background: var(--darkBlue);
+}
+
+
+
+
+
+
+.containerStyle{
+  margin: 4%;
+  padding-top: 2%;
+  background: radial-gradient( var(--greyBeige) 0%, var(--beige) 100%);
+  /* border: outset var(--beige); */
+} 
+
+.resContainerStyle{
+  margin: 4%;
+  padding-top: 2%;
+  background-color: var(--beige);
+  /* background: radial-gradient( var(--greyBeige) 0%, var(--beige) 100%); */
+  border: outset var(--beige);
+} 
+
+.botRow{
+  padding-top: 4%;
+}
+.botCol{
+  /* border: inset; */
+  /* border-color: var(--beige); */
+  background-color: var(--greyBeige);
+  padding-top: 3%;
+  padding-bottom: 2%;
+  margin: 5%;
+}
+
+.picRow{
+border-top: double var(--navBlack);
+border-bottom: double var(--navBlack);
+padding-top: 2%;
+padding-bottom: 2%;
+max-height: 1%;
+}
+.picBox{
+  /* border: inset; */
+  /* border-color: var(--lightBeige); */
+  background-color: var(--darkBlue);
+  padding: 2%;
+  margin:2%;
+  border-radius: .5rem;
+}
+
+.picBox-hover {
+  transition: all 0.15s ease-out;
+
+}
+
+.picBox-hover:hover {
+  transform: scale(1.1);
+}
+
+.projectCard{
+  margin: 15px;
+}
+
+.portHead{
+  padding-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.contactHead{
+  margin-top: 1%;
+}
+
+.nav-link:not(:last-child):after {
+  content: '♦';
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.nav-item{
+  color: var(--beige);
+}
+
+.slidePic{
+  /* border-radius: 5%; */
+  border-radius: 1rem;
+  /* box-shadow: inset 0px 0px var(--lightBeige), 0 0 15px var(--lightBeige); */
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  max-width: 75%;
+  max-height: 75%;
+} 
+
+.contactIcon{
+  border-radius: 25%;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin: 0 0.5rem;
+  transition: 0.15s all ease-out;
+}
+
+.contactIcon:hover{
+  box-shadow: 0 0 12px rgba(0, 0, 0, .25);
+  transform: scale(1.1);
+}
+
+.contactBox{
+  border: inset;
+  border-color: var(--lightBeige);
+  background-color: var(--darkBlue);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 4%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 5%;
+}
+.contactText{
+  color: var(--lightBeige);
+}
+
+.contactRow{
+  border-top: double var(--navBlack);
+  padding-top: 4%;
+  border-bottom: double var(--navBlack);
+
+  }
+
+  .portBox{
+    /* border: inset; */
+    /* border-color: var(--lightBeige); */
+    /* background-color: var(--navBlack); */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    border-radius: 1rem;
+  }
+  
+  .resStart{
+    border-top: double var(--navBlack);
+    padding-top: 2%;
+    max-height: 1%;
+    }
+
+
+  .resStyle{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .resProjectStyle{
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+ 
+
+  .resTitle{
+    padding-top: 2%;
+  }
+
+  .resListStyle{
+    padding-left: 10%;
+    padding-right: 8%;
+  }
+
+  .resEnd{
+      border-bottom: double var(--navBlack);
+      padding-bottom: 2%;
+      max-height: 1%;
+  }
+
+  .resIcon{
+    margin: 1%;
+    max-width: 5%; 
+    max-height: 5%;
+  }
+
+  .downloadIcon{
+    border-radius: 25%;
+    max-width: 10%; 
+    max-height: 10%;
+  }
+
+  .downloadIcon:hover{
+    box-shadow: inset 0px 0px var(--lightBeige), 0 0 15px var(--navWhite)
+  }
+
+  .linkStyle{
+    color: var(--darkBlue);
+    text-decoration: none;
+  }
+
+  .linkStyle:hover{
+    color: var(--lightBeige);
+  }
+
+
+  footer {
+    background-color:#1b304b;
+  }
+
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
